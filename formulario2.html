@@ -1,0 +1,84 @@
+<!Doctype html>
+<html>
+<div class="container">
+	<header class="header">
+		<h1 id="description" class="description text-center">Coração DaLi Craft Show</h1>
+		<p id="title" class="description text-center"> Obrigada por nos ajudar com sua experiência</p>
+	</header>
+	<form id="survey-form">
+		<div class="form-group">
+		<label id="name-label" for="name">Name</label>
+		<input type="text" name="name" id="name" class="form-control" placeholder="Digite seu nome" required />
+	</div>
+	<div class="form-group">
+		<label id="email" for="email">Email</label>
+		<input type="email" name="email" id="email" class="form-control" placeholder="Digite seu email" required />
+	</div>
+	<div class="form-group">
+		<label id="number-label" for="number">Idade<span class="clue">(opicional)</span></label>
+		<input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Idade"/>
+	</div>
+	<div class="form-group">
+		<p> Qual sua relação com Coração Dali?</p>
+		<select id="dropdown" name="role" class="form-control" required>
+			<option value="fornecedor">Fornecedor</option>
+			<option value="cliente">Cliente</option>
+			<option value="parceiro comercial">Parceiro Comercial</option>
+			<option value="Vendedor">Vendedor</option>
+			<option value="colabordor">Colaborador</option>
+			<option value="outro">Outro</option>
+		</select></div>
+		<div class="form-group">
+			<p> Você recomenda os produtos Coração Dali?</p>
+			<label><input name="user-recommend" value="definitely" type="radio" class="input-radio" checked/>Com certeza</label>
+            <label><input name="user-recommend" value="maybe" type="radio" class="input-radio" />Talvez</label>
+            <label><input name="user-recommend" value="not-sure" type="radio" class="input-radio"/>Não</label></div>
+            <div class="form-group">
+            	<p>Qual é seu produto favorito Coração Dali?</p>
+            	<select id="most-like" name="mostLike" class="form-control"required>
+            		<option disabled selected value> Selecione uma opção</option>
+            		<option value="capa de caderneta">Capa de Caderneta</option>
+            		<option value="kit fralda">Kit Fraldas Bordadas</option>
+            		<option value="kit almofadas decorativas">Kit Almofadas Decorativas</option>
+            		<option value="boneca de pano">Boneca de Pano</option>
+            		<option value="bolsa maternidade">Bolsa Maternidade</option>
+            		<option value="outros">Outros</option></select>
+            	</div>
+            	<div class="form-group">
+            		<p> O que você gostaria que melhorasse? <span class="clue">(Marque suas respostas)</span></p>
+            		<label>
+            			<input name="preços" 
+            			value="" 
+            			type="checkbox" 
+            			class="input-checkbox"/>Preço</label>
+            		<label>
+            			<input name="qualidade" 
+            			value="" 
+            			type="checkbox" 
+            			class="input-checkbox"/>Qualidade</label>
+            		<label>
+            			<input name="prazo" 
+            			value="" 
+            			type="checkbox" 
+            			class="input-checkbox"/>Prazo de Entrega</label>
+            		<label>
+            			<input name="Variedade" 
+            			value="" 
+            			type="checkbox" 
+            			class="input-checkbox"/>Variedade</label>
+            		<label>
+            			<input name="outros" 
+            			value="" 
+            			type="checkbox" 
+            			class="input-checkbox"/>Outros</label>
+                    
+                </div>
+                <div class="form-group">
+                	<p>Algum elogio ou sugestão?</p>
+                	<textarea id="comments" class="input-textarea" name="comment" placeholder="Digite seu comentário aqui..."></textarea>
+                </div>
+                <div class="form-group">
+                	<button type="submit" id="submit" class="submit-button">Enviar</button>
+
+                </div></form></div></html>
+            	</select>
